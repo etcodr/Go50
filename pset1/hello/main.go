@@ -1,3 +1,8 @@
+// Author: etcodr
+
+// https://cs50.harvard.edu/x/2021/labs/1/hello/
+
+// hello greets the user and converts age to days
 package main
 
 import "fmt"
@@ -11,5 +16,5 @@ func main() {
 	var age int
 	fmt.Scanf("%d", &age)
 
-	fmt.Printf("Hello, %s! You're at least %d days old!\n", name, age * 365)
+	fmt.Printf("Hello, %s! You're at least %d days old!\n", name, age*365)
 }

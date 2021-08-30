@@ -1,3 +1,8 @@
+// Author: etcodr
+
+// https://cs50.harvard.edu/x/2021/psets/1/mario/more/
+
+// mario recreates adjacent pyramids of blocks using hashes for bricks
 package main
 
 import (

@@ -1,3 +1,9 @@
+// Author: etcodr
+
+// https://cs50.harvard.edu/x/2021/labs/1/population/
+
+// population calculates the number of years required for the
+// population to grow from the start size to the end size
 package main
 
 import "fmt"
@@ -7,9 +13,9 @@ func main() {
 	var startSize = -1
 	for startSize < 9 {
 		fmt.Printf("Start size: ")
-		fmt.Scanf("%d", &startSize)	
+		fmt.Scanf("%d", &startSize)
 	}
-	
+
 	// prompt for end size
 	var endSize = -1
 	for endSize < startSize {
